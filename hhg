@@ -1,0 +1,140 @@
+print "It's New Year's Eve! You're at your friend's house when you all start playing Truth or Dare. When it's your turn, you bravely say - 'Dare.' The rest put their heads together and say, 'You have to go inside the haunted house across the street, alone.'"
+
+raw_input()
+
+print "You're absolutely terrified, but a dare is a dare. You and you friends put on your shoes and in the dead of night, walk across the street towards the haunted house. They wait by the gate while you enter the house. It's cold and dark. You're about to leave when you feel a hand clutching your shoulder!"
+
+raw_input()
+
+print "You immediately start running, petrified, and when you think you've shaken them off, you stop. Then it dawns on you that you are completely lost, in the middle of the enormous house. You know your friends are awaiting your return and you have to get out!"
+
+raw_input()
+
+print "You weave through corridors and trudge up staircases until you enter a room with three doors, labelled #1, #2 and #3. Which door do you pick?"
+
+door = raw_input(">>> ")
+
+if door == "1":
+    print "The room is dark, but you can see a map. However, in the corner you can see a rhinoceros. They have poor vision, so it can't see you yet, but if you pick up the map which is in the centre of the room, it will chase after you. What do you do?"
+    print "1. You pick up the map."
+    print "2. Chase after the rhino to make it leave."
+    
+    rhino = raw_input(">>> ")
+    
+    if rhino == "1":
+        print "You sprint towards the map at full speed, but the rhino gets there first. It pierces you in the chest with its horns and you die. The End."
+    elif rhino == "2":
+        print "You charge at the rhino, but it kills you. For obvious reasons. The End."
+        
+elif door == "2":
+    print "The room is bright and in the middle you find a witch busily adding ingredients to her cauldron. What do you do?"
+    print "1. You approach the witch and ask how to leave the house."
+    print "2. Explore the rest of the room."
+            
+    witch = raw_input(">>> ")
+            
+    if witch == "1":
+        print "The witch looks up, a nasty grin on her face. Without a word, she cuts up your body and adds your body parts to the cauldron. The End."
+    elif witch == "2": 
+        print "Careful not to draw the attention of the witch to yourself, you quietly walk across the room to a large fountain. What do you do?"
+        print "1. You step inside the fountain."
+        print "2. You move on."
+        print "3. You go back to the witch and ask for directions."
+        
+    fountain = raw_input(">>> ")
+                
+    if fountain == "1":
+        print "The fountain transports you to a secret lair under the house." #Work on this - this is the answer
+    elif fountain == "2":
+        print "You carry on your journey, and find another door. However when you open it, there is a giant tarantula that attacks and kills you. The End."
+    elif fountain == "3":
+        print "The witch looks up, a nasty grin on her face. Without a word, she cuts up your body and adds your body parts to the cauldron. The End."
+        
+elif door == "3":
+    print "Room #3 is quite small but you can see a door at the end of the room! However, there is a sphinx standing in your way. She says to you, 'You can only pass if you answer my riddle correctly. Answer wrongly, and I will attack. Say nothing, and I will let you walk away from me unscathed.' What do you do?"
+    print "1. Ask for the riddle."
+    print "2. Look for an alternative option."
+    print "3. Squeeze past the sphinx."
+    
+    sphinx = raw_input(">>> ")
+    
+    if sphinx == "1":
+        print "The sphinx smiles and says,"
+        print "What is the creature that walks on four legs in the morning,"
+        print "Two legs in the afternoon,"
+        print "And three legs in the evening?"
+        
+        riddle = raw_input(">>> ")
+        
+        if riddle == "A man" or "Man" or "A human" or "A person" or "Humans":
+            print "The sphinx smiles again, and lets you pass. You go down some stairs until you enter a dungeon full of squeaking rats and spiders. Sickened, you explore the place, trying to avoid stepping on anything. Eventually you find a torch lying around."
+            print "You find an old key as well. It's quite rusty, but it can still open doors."
+            
+            raw_input()
+            print "You walk on. The room is getting narrower and narrower and you have to sidestep to get past. After a while, you find a door that leads to an old temple. There are many inscriptions on the wall, but just as you learn that the temple is cursed, a centaur appears from the shadows."
+            print "The centaur stares at you and says, 'What are you doing here, child?'"
+            
+            raw_input()
+            
+            print "You tell him the truth and when speaks, his voice echoes around the temple.'Foolish child! There's no escaping this house. Your only hope is to defeat the vampire. He is indestructible, but his weakness is light.' He sighs, 'There has not been light in this place for many years.'"
+            print "1. Ask the centaur how to reach the vampire."
+            print "2. Explore the rest of the temple."
+            
+            centaur = raw_input(">>> ")
+            
+            if centaur == "1":
+                print "The centaur speaks. 'It is useless to try, but I daresay you can leave. Walk along the corridor where you will find an old room. I cannot tell you anymore, as I have personally never dared to go.' You ask him whether he hopes to escape too. 'Someday, child.'"
+                print "Thanking him, you walk along the corridor as he instructed you. You find a door, but it is locked. Pulling out your key, you shove it in the keyhole. To your surprise, it swings open. Carefully, you enter the room."
+                print "You spot a large cupboard that fills up an entire side of the dusty room and a set of stairs in the ground. Which do you take?"
+                print "1. You go down the set of stairs."
+                print "2. You open the cupboard cautiously."
+                
+                cupboard = raw_input(">>> ")
+                
+                if cupboard == "1":
+                    print "You walk on and on. And on. And on. As the stairs wind ever more, you slowly spiral into insanity. The End."
+                elif cupboard == "2":
+                    print "Scared but determined, you fling open the door. You find only a few mice... and a glinting sword! As you step into the cupboard to take it, your world starts spinning."
+                    print "You end up in a musty room, with ragged curtains and two doors, #1 and #2. Which do you choose?"
+                    
+                    door2 = raw_input(">>> ")
+                    
+                    if door2 == "1":
+                        print "Door 1 leads into a long but narrow corridor. As you walk further and further along it, you realise that the walls are closing in on you. Terrified, you run and run, only just making it."
+                        print "Catching your breath, you spot a coffin in the middle of the room and you realise that this is home of the vampire."
+                        print "You try not to wake him up, but as the lid of the coffin rises, you know that you're doomed. A ghostly, pale figure sits up and says coldly, 'Who dares awaken me from my slumber?"
+                        print "His head turns slowly, to face you. You're shivering from head to toe. 'And who,' he booms, 'are you? Foul, putrid human!' His voice rises to a shout!"
+                        print "The vampire gets up, and glides to you. He raises one hand and prepares to curse you. What do you do?"
+                        print "1. Pull out your sword and charge at him."
+                        print "2. Pull out your torch and shine it in his face."
+                        print "3. Run and hide behind a nearby chest of drawers."
+                        
+                        vampire = raw_input(">>> ")
+                        
+                        if vampire == "1":
+                            print "You run at the vampire confidently and push the sword in his chest. However, he pulls it out of him, laughing hysterically. 'Idiot!' he shrieks. ' I am indestructible!' He seizes you by the neck, until you start to suffocate and he holds your lifeless body. The End. "
+                        elif vampire == "2":
+                            print "Hastily, you pull out your torch and shine it in his face. A look of terror crosses it and you watch him wither away to a pile of dust before your eyes. Suddenly, a door appears in the corner of the room, daylight gleaming at the edges."
+                            print "You quickly open it and, to your horror, you see a hydra right in front of your eyes! Taking out your sword, you slice the hydra's heads off, one by one, with surprising ease."
+                            print "However, you quickly find out that the more heads you slice off, the more heads it grows! What should you do?"
+                            print "1. Run away."
+                            print "2. Look for a weapon you can use."
+                            
+                            hydra = raw_input(">>> ")
+                            
+                        elif vampire == "3":
+                            print "Laughing manically, the vampire sends a hex that shatters the chest of drawers into a million fragments. He then aims at you, and fires a painful curse, killing you. The End."
+                    if door2 == "2":
+                        print "This leads into a rather luxurious room, with a golden gramophone and a black leather couch. You see a very old man sitting there, knitting, his hands working very fast. The scarf looks incredibly long and you wonder how long he has been there, until he speaks."
+            if centaur == "2": 
+                print "You walk on. However, you find yourself stumbling across quicksand. It pulls you down into the depths of the temple where you suffocate. The End."
+        else:
+            print "The sphinx smiles, then leaps out at you and digs her claws into your heart. The End."
+            
+    elif sphinx == "2":
+        print "You can see nothing else which will aid your escape until you spot a little trapdoor in the ground. You pull it open, heaving." #Will get past the sphinx but later lead to doom
+            
+    elif sphinx == "3":
+        print "The sphinx smiles sickeningly at you. She leaps out and digs her claws into your heart. The End."
+
+        
